@@ -1,0 +1,17 @@
+Kasik96.swift
+burkeholland.simple-react-snippets
+carlosjs23.vscode-yarn-script
+dbaeumer.vscode-eslint
+dsznajder.es7-react-js-snippets
+eamodio.gitlens
+eg2.tslint
+esbenp.prettier-vscode
+felipe.nasc-touchbar
+GitHub.vscode-pull-request-github
+hazer.ReactCodeSnippets
+ms-vscode.csharp
+msjsdiag.debugger-for-chrome
+PeterJausovec.vscode-docker
+rebornix.ruby
+theShukran.theshukran-react-utils
+wix.vscode-import-cost
