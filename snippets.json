@@ -55,6 +55,17 @@
       "export default compose(tachyons)($1)"
     ],
     "description": "React Native Functional Component"
+  },
+  "rc": {
+    "prefix": "rc",
+    "body": [
+      "import React from 'react'",
+      "import compose from 'recompose/compose'",
+      "",
+      "const $1 = ({$2,...props}) => <div> ${3:Do some cool stuff} </div>",
+      "",
+      "export default compose()($1)"
+    ],
+    "description": "React Functional Component"
   }
 }
-
