@@ -1,0 +1,30 @@
+{
+  // Place your snippets for csharp here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  "class member": {
+    "prefix": "pub",
+    "body": [
+      "/// <summary> $1 </summary>",
+      "public ${2:string} $3 {get; set;} "
+    ],
+    "description": "Add a class member"
+  },
+  "public class": {
+    "prefix": "class",
+    "body": ["public class $1 {", "\n$2 }"],
+    "description": "Add a public class"
+  },
+  "summary": {
+    "prefix": "sum",
+    "body": ["/// <summary> $1 </summary>"],
+    "description": "Add a summary"
+  },
+  "json property": {
+    "prefix": "jsp",
+    "body": ["[JsonProperty(\"$1\")]", "public $2"],
+    "description": "Add JSON property decorator"
+  }
+}

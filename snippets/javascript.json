@@ -1,0 +1,106 @@
+{
+  "recompose": {
+    "prefix": "rec",
+    "body": ["import ${1:compose} from 'recompose/${1:compose}'"],
+    "description": "Import from recompose"
+  },
+  "react": {
+    "prefix": "imr",
+    "body": ["import React from 'react'"],
+    "description": "Import react"
+  },
+  "rootImport": {
+    "prefix": "im",
+    "body": ["import ${1:Icon} from '${1:Icon}'"],
+    "description": "Import from *"
+  },
+  "reactNative": {
+    "prefix": "ren",
+    "body": ["import {${1:View}} from 'react-native'"],
+    "description": "Import from react-native"
+  },
+  "libr": {
+    "prefix": "libr",
+    "body": [
+      "import ${1:withClassName} from '__lib__/react/${1:withClassName}'"
+    ],
+    "description": "Import from __lib__/react/"
+  },
+  "tachyons": {
+    "prefix": "tach",
+    "body": ["import tachyons from 'utils/tachyons'"],
+    "description": "tachyons wrapper"
+  },
+  "connect": {
+    "prefix": "conn",
+    "body": ["import {connect} from 'react-redux'"],
+    "description": "import connect"
+  },
+  "act": {
+    "prefix": "act",
+    "body": ["import $ from '__act__'"],
+    "description": "import act"
+  },
+  "relative": {
+    "prefix": "rel",
+    "body": ["import ${1} from './${1}'"],
+    "description": "import relative"
+  },
+  "property": {
+    "prefix": "prop",
+    "body": ["import property from '__lib__/object/fpProperty'"],
+    "description": "import fpProperty"
+  },
+  "rnf": {
+    "prefix": "rnf",
+    "body": [
+      "import React from 'react'",
+      "import {View, Text, StyleSheet} from 'react-native'",
+      "",
+      "const styles = StyleSheet.create({",
+      "$1",
+      "})",
+      "const $2 = ({$3,...props}) => <View> ${4:Do some cool stuff} </View>",
+      "",
+      "export default $2"
+    ],
+    "description": "React Native Functional Component"
+  },
+  "rc": {
+    "prefix": "rc",
+    "body": [
+      "import React from 'react'",
+      "import compose from 'recompose/compose'",
+      "",
+      "const $1 = ({$2,...props}) => <div> ${3:Do some cool stuff} </div>",
+      "",
+      "export default compose()($1)"
+    ],
+    "description": "React Functional Component"
+  },
+  "pr": {
+    "prefix": "pr",
+    "body": ["$1={$1}"]
+  },
+  "props": {
+    "prefix": "..p",
+    "body": ["{...props}"],
+    "description": "Spread props..."
+  },
+  "fn": {
+    "prefix": "fn",
+    "body": ["const $1 = ($2) => $3"]
+  },
+  "useConnect": {
+    "prefix": "uconn",
+    "body": ["connect(mapState, mapDispatch),"]
+  },
+  "tapLog": {
+    "prefix": "tap",
+    "body": ["console.tapLog($1)"]
+  },
+  "ramda": {
+    "prefix": "ram",
+    "body": ["import * as R from 'ramda'"]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "explorer.confirmDragAndDrop": false,
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[csharp]": {
+    "editor.formatOnSave": false
+  },
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "eslint.autoFixOnSave": true,
+  "editor.fontFamily": "Fira Code, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "eslint.alwaysShowStatus": true,
+  "editor.minimap.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveshare.featureSet": "stable",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ]
+}
